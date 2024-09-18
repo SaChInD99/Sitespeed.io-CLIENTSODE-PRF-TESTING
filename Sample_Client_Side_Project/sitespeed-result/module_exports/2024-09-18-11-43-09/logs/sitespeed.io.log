@@ -1,0 +1,84 @@
+Versions OS: win32 10.0.22631 nodejs: v20.17.0 sitespeed.io: 4.7.0 browsertime: 1.0.0-beta.31 coach: 0.31.0
+Starting chrome for analysing module.exports 1 time(s)
+Testing url module.exports run 1
+module.exports generated the following error in Browsertime BrowserError: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.22631 x86_64)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.22631 x86_64)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:81:15
+From previous event:
+    at SeleniumRunner.start (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:80:13)
+    at runIteration (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:205:21)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:283:25
+From previous event:
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:282:17
+From previous event:
+    at Engine.run (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:281:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:26
+    at processImmediate (node:internal/timers:483:21)
+From previous event:
+    at Object.analyzeUrl (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:34
+    at C:\Sample_Client_Side_Project\node_modules\mkdirp\index.js:30:20
+    at FSReqCallback.oncomplete (node:fs:187:23)
+From previous event:
+    at Object.processMessage (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:14)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\support\queueHandler.js:157:57
+    at drainItem (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:92:21)
+    at Immediate.drain (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:73:84)
+    at processImmediate (node:internal/timers:483:21)
+Starting chrome for analysing return 1 time(s)
+Testing url return run 1
+return generated the following error in Browsertime BrowserError: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.22631 x86_64)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.22631 x86_64)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:81:15
+From previous event:
+    at SeleniumRunner.start (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:80:13)
+    at runIteration (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:205:21)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:283:25
+From previous event:
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:282:17
+From previous event:
+    at Engine.run (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:281:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:26
+    at processImmediate (node:internal/timers:483:21)
+From previous event:
+    at Object.analyzeUrl (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:34
+    at C:\Sample_Client_Side_Project\node_modules\mkdirp\index.js:30:20
+    at FSReqCallback.oncomplete (node:fs:187:23)
+From previous event:
+    at Object.processMessage (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:14)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\support\queueHandler.js:157:57
+    at drainItem (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:92:21)
+    at Immediate.drain (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:73:84)
+    at processImmediate (node:internal/timers:483:21)
+Starting chrome for analysing } 1 time(s)
+Testing url } run 1
+} generated the following error in Browsertime BrowserError: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.22631 x86_64)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.22631 x86_64)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:81:15
+From previous event:
+    at SeleniumRunner.start (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:80:13)
+    at runIteration (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:205:21)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:283:25
+From previous event:
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:282:17
+From previous event:
+    at Engine.run (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:281:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:26
+    at processImmediate (node:internal/timers:483:21)
+From previous event:
+    at Object.analyzeUrl (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:34
+    at C:\Sample_Client_Side_Project\node_modules\mkdirp\index.js:30:20
+    at FSReqCallback.oncomplete (node:fs:187:23)
+From previous event:
+    at Object.processMessage (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:14)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\support\queueHandler.js:157:57
+    at drainItem (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:92:21)
+    at Immediate.drain (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:73:84)
+    at processImmediate (node:internal/timers:483:21)
+Render HTML for 3 page(s) 
+HTML stored in C:\Sample_Client_Side_Project\sitespeed-result\module_exports\2024-09-18-11-43-09

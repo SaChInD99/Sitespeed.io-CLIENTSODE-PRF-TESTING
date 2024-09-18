@@ -1,0 +1,31 @@
+Versions OS: win32 10.0.22631 nodejs: v20.17.0 sitespeed.io: 4.7.0 browsertime: 1.0.0-beta.31 coach: 0.31.0
+{
+  "uuid": "50bbc1ce-1ca6-447c-9ce6-c2c6af9c67cd",
+  "type": "url",
+  "timestamp": "2024-09-18T12:50:21+05:30",
+  "source": "url-reader",
+  "data": {},
+  "url": "module.exports",
+  "group": null
+}
+{
+  "uuid": "417f75b5-7f92-433a-af2b-2b6c8f17c69a",
+  "type": "url",
+  "timestamp": "2024-09-18T12:50:21+05:30",
+  "source": "url-reader",
+  "data": {},
+  "url": "return",
+  "group": null
+}
+{
+  "uuid": "4697364a-8165-47e5-a374-e4543e3f6de6",
+  "type": "url",
+  "timestamp": "2024-09-18T12:50:21+05:30",
+  "source": "url-reader",
+  "data": {},
+  "url": "}",
+  "group": null
+}
+Starting firefox for analysing module.exports 1 time(s)
+Testing url module.exports run 1
+Browser failed to start in time, trying one more time.

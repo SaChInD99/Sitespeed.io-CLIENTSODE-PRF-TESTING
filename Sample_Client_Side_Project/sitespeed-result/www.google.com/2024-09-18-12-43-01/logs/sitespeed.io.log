@@ -1,0 +1,32 @@
+Versions OS: win32 10.0.22631 nodejs: v20.17.0 sitespeed.io: 4.7.0 browsertime: 1.0.0-beta.31 coach: 0.31.0
+Starting firefox for analysing https://www.google.com 1 time(s)
+Testing url https://www.google.com run 1
+Browser failed to start in time, trying one more time.
+https://www.google.com generated the following error in Browsertime BrowserError: Failed to start browser in 60 seconds.
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:81:15
+From previous event:
+    at SeleniumRunner.start (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:80:13)
+From previous event:
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:282:17
+From previous event:
+    at Engine.run (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:281:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:26
+    at processImmediate (node:internal/timers:483:21)
+From previous event:
+    at Object.analyzeUrl (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\analyzer.js:76:8)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:34
+    at C:\Sample_Client_Side_Project\node_modules\mkdirp\index.js:30:20
+    at FSReqCallback.oncomplete (node:fs:187:23)
+From previous event:
+    at Object.processMessage (C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\plugins\browsertime\index.js:131:14)
+    at C:\Sample_Client_Side_Project\node_modules\sitespeed.io\lib\support\queueHandler.js:157:57
+    at drainItem (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:92:21)
+    at Immediate.drain (C:\Sample_Client_Side_Project\node_modules\concurrent-queue\index.js:73:84)
+    at processImmediate (node:internal/timers:483:21)
+    at SeleniumRunner.startBrowser (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:37:10)
+    at SeleniumRunner.start (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\seleniumRunner.js:42:25)
+    at runIteration (C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:205:21)
+    at C:\Sample_Client_Side_Project\node_modules\browsertime\lib\core\engine.js:283:25
+    at processImmediate (node:internal/timers:483:21)
+Render HTML for 1 page(s) 
+HTML stored in C:\Sample_Client_Side_Project\sitespeed-result\www.google.com\2024-09-18-12-43-01

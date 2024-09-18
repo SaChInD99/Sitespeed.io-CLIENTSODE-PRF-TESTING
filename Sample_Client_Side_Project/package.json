@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node-modules": "^0.0.1",
+    "sitespeed.io": "^34.12.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^128.0.3"
+  }
+}
